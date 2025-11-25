@@ -1,3 +1,5 @@
+(In development phase)
+
 # Anonymous Blog Platform - Complete Project Structure
 
 ## Project Structure
