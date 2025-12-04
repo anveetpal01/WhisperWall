@@ -3,9 +3,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 import logging
 
-from app.database import engine, Base
-from app.routers import posts
-from app.config import settings
+from database import engine, Base
+from routers import posts
+from config import settings
 
 # Configure logging
 logging.basicConfig(

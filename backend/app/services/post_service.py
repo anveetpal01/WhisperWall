@@ -2,9 +2,9 @@ from sqlalchemy.orm import Session
 from sqlalchemy import desc
 import math
 
-from app.models.post import Post
-from app.schemas.post import PostCreate, PaginatedPostsResponse
-from app.config import settings
+from models.post import Post
+from schemas.post import PostCreate, PaginatedPostsResponse
+from config import settings
 
 
 class PostService:

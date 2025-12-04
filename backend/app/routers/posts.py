@@ -3,9 +3,9 @@ from sqlalchemy.orm import Session
 from typing import List
 import logging
 
-from app.database import get_db
-from app.schemas.post import PostCreate, PostResponse, PaginatedPostsResponse
-from app.services.post_service import PostService
+from database import get_db
+from schemas.post import PostCreate, PostResponse, PaginatedPostsResponse
+from services.post_service import PostService
 
 router = APIRouter()
 logger = logging.getLogger(__name__)
