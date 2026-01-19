@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     PROJECT_NAME: str = "Anonymous Blog"
     
     # CORS
-    CORS_ORIGINS: List[str] = ["http://localhost:8501", "http://localhost:3000"]
+    CORS_ORIGINS: List[str] = ["http://localhost:5174", "http://localhost:3000"]
     
     # Posts
     MAX_POST_LENGTH: int = 5000
