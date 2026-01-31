@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://whisperwall-ultimate-project-backend.onrender.com/';
+const API_BASE_URL = 'https://whisperwall-ultimate-project-backend.onrender.com';
 
 /**
  * API Client for WhisperWall Backend
