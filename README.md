@@ -80,7 +80,11 @@ WhisperWall/
 
 1. Backend API (FastAPI)
 2. Database models and migrations
-3. Frontend application (Streamlit)
+3. Frontend application (react)
 4. Configuration files
 5. Docker setup
 6. Testing suite
+
+
+next upgrade - 
+add soft delete in delete api

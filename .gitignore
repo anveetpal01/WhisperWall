@@ -209,3 +209,12 @@ __marimo__/
 .gitignore
 .git
 blog.db
+
+node_modules/
+build/ or dist/
+.env and .env.local (and other .env.*.local files)
+.vscode/ (except extensions.json if team-wide settings are needed)
+coverage/
+.DS_Store
+.cache/ or .vite/ (depending on bundler)
+logs, npm-debug.log*, yarn-error.log*

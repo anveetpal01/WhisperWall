@@ -18,7 +18,7 @@ class Settings(BaseSettings):
     POSTS_PER_PAGE: int = 20
     
     # Security
-    SECRET_KEY: str = "your-secret-key-change-in-production"
+    SECRET_KEY: str = "06A01BAF68A81BCF8830EB232C7760C1"
     
     class Config:
         env_file = ".env"
