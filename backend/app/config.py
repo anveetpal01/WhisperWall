@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     PROJECT_NAME: str = "Anonymous Blog"
     
     # CORS
-    CORS_ORIGINS: List[str] = ["http://localhost:5173", "http://localhost:3000", "https://whisper-wall-ultimate-project-front.vercel.app/"]
+    CORS_ORIGINS: List[str] = ["http://localhost:5173", "http://localhost:3000", "https://whisper-wall-ultimate-project-front.vercel.app"]
     
     # Posts
     MAX_POST_LENGTH: int = 5000
