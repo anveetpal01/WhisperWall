@@ -21,7 +21,6 @@ async def lifespan(app: FastAPI):
     # Startup: Create tables
     logger.info("Creating database tables...")
     if not os.path.exists("/tmp/blog.db"):
-        engine = create_engine(settings.DATABASE_URL)
         Base.metadata.create_all(bind=engine)
     logger.info("Application startup complete")
     yield
