@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://whisper-wall-ultimate-backend.vercel.app';
+const API_BASE_URL = 'https://whisper-wall-ultimate-backend.vercel.app/api/v1';
 
 /**
  * API Client for WhisperWall Backend
