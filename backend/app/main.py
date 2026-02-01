@@ -6,6 +6,7 @@ import logging
 from database import engine, Base
 from routers import posts
 from config import settings
+import os
 
 # Configure logging
 logging.basicConfig(
@@ -19,7 +20,9 @@ logger = logging.getLogger(__name__)
 async def lifespan(app: FastAPI):
     # Startup: Create tables
     logger.info("Creating database tables...")
-    Base.metadata.create_all(bind=engine)
+    if not os.path.exists("/tmp/blog.db"):
+        engine = create_engine(settings.DATABASE_URL)
+        Base.metadata.create_all(bind=engine)
     logger.info("Application startup complete")
     yield
     # Shutdown
